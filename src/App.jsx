@@ -28,7 +28,7 @@ function App() {
       <h1>Timple + React</h1>
       <button onClick={handleGoogleSingIn}>Google Sing In</button>
       {user && <div className="card">
-        <h3>Email: {user.displayName}</h3>
+        
         <img src={user.photoURL} alt="" />
       </div>}
 
